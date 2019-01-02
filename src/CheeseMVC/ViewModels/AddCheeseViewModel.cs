@@ -35,19 +35,6 @@ namespace CheeseMVC.ViewModels
                 });
             }
 
-            /*
-            CheeseTypes.Add(new SelectListItem
-            {
-                Value = ((int)CheeseType.Soft).ToString(),
-                Text = CheeseType.Soft.ToString()
-            });
-
-            CheeseTypes.Add(new SelectListItem
-            {
-                Value = ((int)CheeseType.Fake).ToString(),
-                Text = CheeseType.Fake.ToString()
-            });
-            */
 
         }
         public AddCheeseViewModel()
@@ -56,3 +43,18 @@ namespace CheeseMVC.ViewModels
         }
     }
 }
+
+
+/*
+CheeseTypes.Add(new SelectListItem
+{
+    Value = ((int)CheeseType.Soft).ToString(),
+    Text = CheeseType.Soft.ToString()
+});
+
+CheeseTypes.Add(new SelectListItem
+{
+    Value = ((int)CheeseType.Fake).ToString(),
+    Text = CheeseType.Fake.ToString()
+});
+*/
